@@ -1,22 +1,550 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <script src="" async defer></script>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Kaif Khan - Python Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#home">Md Kaif Khan</a>
+            </div>
+            
+            <!-- Theme Toggle -->
+            <div class="theme-toggle">
+                <button id="theme-btn" class="theme-btn" aria-label="Toggle theme">
+                    <span class="sun-icon">☀️</span>
+                    <span class="moon-icon">🌙</span>
+                </button>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <!-- Navigation Menu -->
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certifications" class="nav-link">Certifications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#resume" class="nav-link">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-container">
+            <div class="home-content">
+                <div class="profile-image">
+                    <img src="Images/img.png" alt="John Doe Profile" />
+                </div>
+                <h1 class="home-title">Hi, I'm <span class="highlight">Kaif </span></h1>
+                <p class="home-tagline">Python Developer & Creative Problem Solver</p>
+                <p class="home-description">
+    Passionate about building efficient, scalable backend systems and data-driven applications using Python.
+    Experienced in frameworks like Django and Flask, with a strong focus on clean code, automation, and problem-solving.
+</p>
+
+                <div class="home-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View My Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+               <div class="about-text">
+    <p>
+        I'm a dedicated Python Developer with over 3 years of experience building robust backend systems,
+        automation tools, and data-driven applications. My journey began with scripting small utilities, and 
+        it has evolved into crafting scalable software that solves real-world problems.
+    </p>
+    <p>
+        I specialize in Python frameworks like Django and Flask, and I work extensively with libraries such as 
+        Pandas, NumPy, and SQLAlchemy. Whether it's building APIs, automating workflows, or analyzing data, I bring
+        a problem-solving mindset and clean coding practices to every project.
+    </p>
+    <p>
+        Outside of coding, I enjoy contributing to open-source projects, writing tech blogs, and exploring 
+        emerging fields like AI and machine learning. I'm passionate about continuous learning and sharing knowledge
+        with the developer community.
+    </p>
+</div>
+
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h3>3+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <!-- <div class="stat">
+                        <h3>20+</h3>
+                        <p>Happy Clients</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <!-- certification 1 -->
+                <div class="certification-card">
+                    <div class="cert-icon">
+                        <img src="Images/python.jpeg" alt="Python IMG" />
+                    </div>
+                    <h3>Python Basics</h3>
+                    <p>HackerRank</p>
+                    <span class="cert-year">2025</span>
+                </div>
+
+                <!-- <div class="certification-card">
+                    <div class="cert-icon">
+                        <img src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop" alt="Modern web development workspace with code" />
+                    </div>
+                    <h3>React Developer Certification</h3>
+                    <p>Meta (Facebook)</p>
+                    <span class="cert-year">2022</span>
+                </div> -->
+<!--                 
+                <div class="certification-card">
+                    <div class="cert-icon">
+                        <img src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop" alt="Programming code on computer screen" />
+                    </div>
+                    <h3>Python Professional Certificate</h3>
+                    <p>Google</p>
+                    <span class="cert-year">2022</span>
+                </div> -->
+
+                <!-- <div class="certification-card">
+                    <div class="cert-icon">
+                        <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop" alt="Web development environment with multiple screens" />
+                    </div>
+                    <h3>Full Stack Web Development</h3>
+                    <p>FreeCodeCamp</p>
+                    <span class="cert-year">2021</span>
+                </div> -->
+
+                <!-- <div class="certification-card">
+                    <div class="cert-icon">
+                        <img src="https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop" alt="Mobile app development workspace" />
+                    </div>
+                    <h3>Mobile App Development</h3>
+                    <p>Coursera</p>
+                    <span class="cert-year">2021</span>
+                </div> -->
+<!-- 
+                <div class="certification-card">
+                    <div class="cert-icon">
+                        <img src="https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop" alt="Data center with server racks and cloud infrastructure" />
+                    </div>
+                    <h3>Cloud Computing Fundamentals</h3>
+                    <p>Microsoft Azure</p>
+                    <span class="cert-year">2020</span>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <div class="resume-download">
+                    <p>Download my complete resume for detailed information about my experience and qualifications.</p>
+                    <a href="#" class="btn btn-primary download-btn" onclick="alert('Resume download functionality would be implemented with a real PDF file.')">
+                        📄 Download Resume (PDF)
+                    </a>
+                </div>
+                
+                <div class="resume-summary">
+                    <!-- <div class="resume-section">
+                        <h3>Experience</h3>
+                        <div class="experience-item">
+                            <div class="experience-header">
+                                <h4>Senior Full Stack Developer</h4>
+                                <span class="experience-period">2022 - Present</span>
+                            </div>
+                            <p class="experience-company">TechCorp Solutions</p>
+                            <p class="experience-description">
+                                Lead development of scalable web applications using React, Node.js, and AWS. 
+                                Managed a team of 4 developers and improved application performance by 40%.
+                            </p>
+                        </div>
+                        
+                        <div class="experience-item">
+                            <div class="experience-header">
+                                <h4>Full Stack Developer</h4>
+                                <span class="experience-period">2020 - 2022</span>
+                            </div>
+                            <p class="experience-company">Digital Innovations Inc.</p>
+                            <p class="experience-description">
+                                Developed and maintained multiple client websites and web applications. 
+                                Specialized in React, Python Django, and PostgreSQL.
+                            </p>
+                        </div>
+                    </div> -->
+                    
+                    <div class="resume-section">
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <div class="education-header">
+                                <h4>Bachelor of Science in Computer Science </h4>
+                                <span class="education-period">2022 - 2026</span>
+                            </div>
+                            <p class="education-school">Technocrats Institute of Technology</p>
+                            <p class="education-details">
+                                Relevant coursework: Software Engineering, 
+                                Data Structures, Web Development, Database Systems.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">HTML/CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">React</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Vue.js</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Backend</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Node.js</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Python</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Express.js</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Django</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Database & Tools</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">PostgreSQL</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">MongoDB</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Git</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">AWS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop" alt="E-commerce Platform" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">🔗 Live Demo</a>
+                                <a href="#" class="project-link" target="_blank">📂 GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Platform</h3>
+                        <p>Full-stack e-commerce solution built with React, Node.js, and Stripe integration. Features include user authentication, product management, and payment processing.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop" alt="Task Management App" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">🔗 Live Demo</a>
+                                <a href="#" class="project-link" target="_blank">📂 GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">Socket.io</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop" alt="Weather Dashboard" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">🔗 Live Demo</a>
+                                <a href="#" class="project-link" target="_blank">📂 GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Weather Dashboard</h3>
+                        <p>Interactive weather dashboard with location-based forecasts, historical data visualization, and responsive design for all devices.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Chart.js</span>
+                            <span class="tech-tag">Weather API</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/1591061/pexels-photo-1591061.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop" alt="Social Media App" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">🔗 Live Demo</a>
+                                <a href="#" class="project-link" target="_blank">📂 GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Social Media App</h3>
+                        <p>Modern social media application with user profiles, real-time messaging, image sharing, and advanced privacy controls.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Redis</span>
+                            <span class="tech-tag">AWS S3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop" alt="Portfolio Website" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">🔗 Live Demo</a>
+                                <a href="#" class="project-link" target="_blank">📂 GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>Responsive portfolio website built with vanilla HTML, CSS, and JavaScript. Features dark/light mode toggle and smooth animations.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Responsive</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop" alt="API Gateway" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">🔗 Live Demo</a>
+                                <a href="#" class="project-link" target="_blank">📂 GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>API Gateway Service</h3>
+                        <p>Microservices API gateway with authentication, rate limiting, request routing, and comprehensive logging and monitoring.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Redis</span>
+                            <span class="tech-tag">JWT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>
+                        I'm always interested in new opportunities and exciting projects. 
+                        Whether you have a question or just want to say hi, feel free to reach out!
+                    </p>
+                    
+                    <!-- Social Links -->
+                    <div class="social-links">
+                        <a href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <span class="social-icon">🐙</span>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://linkedin.com/in/johndoe" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <span class="social-icon">💼</span>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://twitter.com/johndoe" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <span class="social-icon">🐦</span>
+                            <span>Twitter</span>
+                        </a>
+                        <a href="https://instagram.com/johndoe" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <span class="social-icon">📷</span>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="mailto:john.doe@example.com" class="social-link">
+                            <span class="social-icon">✉️</span>
+                            <span>Email</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message" id="name-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 John Doe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
